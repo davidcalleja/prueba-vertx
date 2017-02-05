@@ -22,13 +22,13 @@ spec:
     metadata:
       name: backend
       labels:
-        app: gceme
+        app: prueba
         role: backend
         env: canary
     spec:
       containers:
       - name: backend
-        image: gcr.io/cloud-solutions-images/gceme:1.0.0
+        image: gcr.io/cloud-solutions-images/prueba:1.0.0
         resources:
           limits:
             memory: "500Mi"
