@@ -1,9 +1,8 @@
-package main.java;
+package com.prueba;
 
 import io.vertx.core.AbstractVerticle;
-import io.vertx.core.Vertx;
 
-public class Main extends AbstractVerticle {
+public class Prueba extends AbstractVerticle {
 
     @Override
     public void start() {
